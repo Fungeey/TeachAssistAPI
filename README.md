@@ -1,5 +1,5 @@
 # TeachAssistAPI
-A simple mark scraper / API for TeachAssist
+A simple mark scraper / API for TeachAssist.
 
 ### Setup
 
@@ -16,5 +16,5 @@ string markDataJSON = scraper.ScrapeMarks(userInfo);
 
 ### Notes
 
-Currently, Teachassist doesn’t have a public api, so the api has to login using a post request, then manually scrape and parse all of the actual page content. Also, I can only guarantee that this will work on my school’s Teachassist instance. 
+Currently, Teachassist doesn’t have a public api, so the api has to login using a post request, then manually scrape and parse all of the actual page content. All of the processing is pretty abstracted away for simplicity. Also, I can only guarantee that this will work on my school’s Teachassist instance.
 
